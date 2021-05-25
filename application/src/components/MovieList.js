@@ -4,14 +4,15 @@ const MovieList = (props) => {
 	return (
 		<>
 			{props.movies.map((movie, index) => (
-				<div className='movieDiv'>
-					<img src={movie.Poster} alt='movie'></img>
-					<div
-						onClick={() => (movie)}
-
-					>
-					</div>
-				</div>
+      <article className="movie">
+	  <section className="movie-poster">
+		  <img src={movie.Poster} alt="Poster" />
+	  </section>
+	  <section className="movie-content">
+		<h1>{movie.Title}</h1>
+		<p>{movie.Year}</p>
+	  </section>
+	</article>
 			))}
 		</>
 	);

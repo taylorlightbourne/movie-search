@@ -3,7 +3,7 @@ import React from 'react';
 
 const SearchBox = (props) => {
 	return (
-		<div className='searchContainer'>
+		<div className='searchContents'>
 			<input
 				className='searchBar'
 				value={props.value}
