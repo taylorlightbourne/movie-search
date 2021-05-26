@@ -3,9 +3,6 @@ import SearchBox from './components/SearchBox';
 import MovieList from './components/MovieList';
 import "./App.css";
 
-// OMDb API: http://www.omdbapi.com/?i=tt3896198&apikey=2215d555
-// Poster API: http://img.omdbapi.com/?i=tt3896198&h=600&apikey=2215d555
-
 const SearchContainer = () => {
 	const [movies, setMovies] = useState([]);
 	const [searchValue, setSearchValue] = useState('');
