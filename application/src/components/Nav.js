@@ -9,7 +9,7 @@ const Nav = () => {
             <h1>Movie Search</h1>
         </div>
         <div className="links">
-             <a href="./BrowseContainer">Browse</a>
+             {/* <a href="./BrowseContainer">Browse</a> */}
              <a href="./SearchContainer">Search</a>
         </div>
     </div>
